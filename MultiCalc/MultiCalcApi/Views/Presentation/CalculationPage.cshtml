@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "_Layout.cshtml";
+}
+
+<h1>Web calculator</h1>
+<table border="1">
+    <tr>
+        <td>Enter your name</td>
+        <td><input type="text" name="userName" id="name" value="" /></td>
+    </tr>
+    <tr>
+        <td>Enter First Number</td>
+        <td><input type="text" name="num1" id="txt1" value="" /></td>
+    </tr>
+    <tr>
+        <td>Enter Second Number</td>
+        <td><input type="text" name="num2" id="txt2" value="" /></td>
+    </tr>
+    <tr>
+        <td>Chose operation</td>
+        <td>
+            <select name="operation" id="operation">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="button" name="sum" id="button1" value="Calculate Sum" /></td>
+    </tr>
+</table>
+<hr />
+
+<span id="result" />
+
+<script>
+    $(document).ready(function () {
+
+        $("#button1").click(function () {
+            var userName = $("#name").val();
+            var num1 = $("#txt1").val();
+            var num2 = $("#txt2").val();
+            var operation = $("#operation").val();
+
+            $.post("/Calculation/GetCalculation",
+                {
+                    userName: userName,
+                    firstNum: num1,
+                    secondNum: num2,
+                    operation: operation
+                },
+                function (data) {
+                    $("#result").text("Result is " + data);
+                });
+
+        })
+    })
+</script>

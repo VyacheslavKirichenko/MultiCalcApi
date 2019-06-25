@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\newMultiCalc\MultiCalcExistTable\MultiCalc\.vs\MultiCalc\lut\0\b\UnitTestApp\bin\Debug\UnitTestApp.dll.config
+C:\Users\User\Desktop\newMultiCalc\MultiCalcExistTable\MultiCalc\.vs\MultiCalc\lut\0\b\UnitTestApp\bin\Debug\UnitTestApp.dll
+C:\Users\User\Desktop\newMultiCalc\MultiCalcExistTable\MultiCalc\.vs\MultiCalc\lut\0\i\UnitTestApp\Debug\UnitTestApp.csprojAssemblyReference.cache
+C:\Users\User\Desktop\newMultiCalc\MultiCalcExistTable\MultiCalc\.vs\MultiCalc\lut\0\i\UnitTestApp\Debug\UnitTestApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\newMultiCalc\MultiCalcExistTable\MultiCalc\.vs\MultiCalc\lut\0\i\UnitTestApp\Debug\UnitTestApp.csproj.CopyComplete
+C:\Users\User\Desktop\newMultiCalc\MultiCalcExistTable\MultiCalc\.vs\MultiCalc\lut\0\i\UnitTestApp\Debug\UnitTestApp.dll
